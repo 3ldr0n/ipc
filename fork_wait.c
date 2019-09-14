@@ -6,6 +6,7 @@
 
 int main(int argc, char **argv)
 {
+        argc = 0, argv = NULL;
         int pid = fork();
         if (pid == 0) {
                 printf("Child\n");
